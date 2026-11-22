@@ -36,14 +36,14 @@ vp run chart
 
 On an Apple M2 with Node 26.13.1, 25 runs each, times in milliseconds and allocations in MiB over the whole timed loop:
 
-| Workload  | Time, `balanced-match` | Time, `fast-balanced-match` | Memory, `balanced-match` | Memory, `fast-balanced-match` |
-| --------- | ---------------------- | --------------------------- | ------------------------ | ----------------------------- |
-| small     | 211.6 (202.3 to 227.6) | 148.9 (147.6 to 166.3)      | 728.4                    | 413.6                         |
-| realworld | 148.2 (146.7 to 165.6) | 130.8 (129.7 to 147.5)      | 574.0                    | 310.4                         |
-| regex     | 163.9 (162.3 to 174.2) | 165.4 (164.7 to 178.6)      | 558.2                    | 400.5                         |
-| deep      | 64.5 (64.3 to 68.6)    | 9.8 (9.7 to 10.5)           | 74.7                     | 0.6                           |
-| unclosed  | 34.3 (34.1 to 36.1)    | 7.9 (7.9 to 8.5)            | 74.7                     | 0.6                           |
-| recovery  | 61.2 (60.9 to 67.9)    | 15.1 (15.0 to 16.3)         | 74.7                     | 0.5                           |
+| Workload  | Time,<br>`balanced-match`             | Time,<br>`fast-balanced-match`        | Memory,<br>`balanced-match` | Memory,<br>`fast-balanced-match` |
+| --------- | ------------------------------------- | ------------------------------------- | --------------------------- | -------------------------------- |
+| small     | 211.6&nbsp;(202.3&nbsp;to&nbsp;227.6) | 148.9&nbsp;(147.6&nbsp;to&nbsp;166.3) | 728.4                       | 413.6                            |
+| realworld | 148.2&nbsp;(146.7&nbsp;to&nbsp;165.6) | 130.8&nbsp;(129.7&nbsp;to&nbsp;147.5) | 574.0                       | 310.4                            |
+| regex     | 163.9&nbsp;(162.3&nbsp;to&nbsp;174.2) | 165.4&nbsp;(164.7&nbsp;to&nbsp;178.6) | 558.2                       | 400.5                            |
+| deep      | 64.5&nbsp;(64.3&nbsp;to&nbsp;68.6)    | 9.8&nbsp;(9.7&nbsp;to&nbsp;10.5)      | 74.7                        | 0.6                              |
+| unclosed  | 34.3&nbsp;(34.1&nbsp;to&nbsp;36.1)    | 7.9&nbsp;(7.9&nbsp;to&nbsp;8.5)       | 74.7                        | 0.6                              |
+| recovery  | 61.2&nbsp;(60.9&nbsp;to&nbsp;67.9)    | 15.1&nbsp;(15.0&nbsp;to&nbsp;16.3)    | 74.7                        | 0.5                              |
 
 Each cell is the median, with the fastest and slowest run in brackets; `results.json` holds every figure.
 `fast-balanced-match`'s fastest run beats `balanced-match`'s fastest on every workload but `regex`, where matching the regex itself dominates and the two run within 1%.
