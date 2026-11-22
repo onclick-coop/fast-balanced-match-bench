@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 708" role="img" aria-label="fast-balanced-match compared with balanced-match. Median of 25 runs, node v26.13.1 on darwin arm64">
+<style>.label, .value, .title, .heading { font: 13px ui-sans-serif, system-ui, sans-serif; fill: #6e7781 } .title { font-size: 14px; font-weight: 600 } .value { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px } .heading { font-weight: 600; fill: #8c959f } .theirs { fill: #8c959f; fill-opacity: 0.6 } .ours { fill: #2f81f7 }</style>
+<text x="0" y="16" class="title">fast-balanced-match compared with balanced-match</text>
+<text x="720" y="16" text-anchor="end" class="label">Median of 25 runs, node v26.13.1 on darwin arm64</text>
+<rect x="0" y="29" width="12" height="12" rx="2" class="theirs"/>
+<text x="18" y="40" class="label">balanced-match</text>
+<rect x="200" y="29" width="12" height="12" rx="2" class="ours"/>
+<text x="218" y="40" class="label">fast-balanced-match</text>
+<text x="0" y="74" class="heading">Time per workload, in ms (shorter is faster)</text>
+<text x="0" y="106" class="label">small</text>
+<rect x="110" y="86" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="97" text-anchor="end" class="value">211.6 ms</text>
+<rect x="110" y="104" width="366.0" height="14" rx="3" class="ours"/>
+<text x="720" y="115" text-anchor="end" class="value">148.9 ms</text>
+<text x="0" y="154" class="label">realworld</text>
+<rect x="110" y="134" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="145" text-anchor="end" class="value">148.2 ms</text>
+<rect x="110" y="152" width="458.7" height="14" rx="3" class="ours"/>
+<text x="720" y="163" text-anchor="end" class="value">130.8 ms</text>
+<text x="0" y="202" class="label">regex</text>
+<rect x="110" y="182" width="515.3" height="14" rx="3" class="theirs"/>
+<text x="720" y="193" text-anchor="end" class="value">163.9 ms</text>
+<rect x="110" y="200" width="520.0" height="14" rx="3" class="ours"/>
+<text x="720" y="211" text-anchor="end" class="value">165.4 ms</text>
+<text x="0" y="250" class="label">deep</text>
+<rect x="110" y="230" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="241" text-anchor="end" class="value">64.5 ms</text>
+<rect x="110" y="248" width="78.6" height="14" rx="3" class="ours"/>
+<text x="720" y="259" text-anchor="end" class="value">9.8 ms</text>
+<text x="0" y="298" class="label">unclosed</text>
+<rect x="110" y="278" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="289" text-anchor="end" class="value">34.3 ms</text>
+<rect x="110" y="296" width="120.2" height="14" rx="3" class="ours"/>
+<text x="720" y="307" text-anchor="end" class="value">7.9 ms</text>
+<text x="0" y="346" class="label">recovery</text>
+<rect x="110" y="326" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="337" text-anchor="end" class="value">61.2 ms</text>
+<rect x="110" y="344" width="128.0" height="14" rx="3" class="ours"/>
+<text x="720" y="355" text-anchor="end" class="value">15.1 ms</text>
+<text x="0" y="408" class="heading">Memory allocated per workload, in MiB (shorter is less)</text>
+<text x="0" y="440" class="label">small</text>
+<rect x="110" y="420" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="431" text-anchor="end" class="value">728.4 MiB</text>
+<rect x="110" y="438" width="295.3" height="14" rx="3" class="ours"/>
+<text x="720" y="449" text-anchor="end" class="value">413.6 MiB</text>
+<text x="0" y="488" class="label">realworld</text>
+<rect x="110" y="468" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="479" text-anchor="end" class="value">574.0 MiB</text>
+<rect x="110" y="486" width="281.2" height="14" rx="3" class="ours"/>
+<text x="720" y="497" text-anchor="end" class="value">310.4 MiB</text>
+<text x="0" y="536" class="label">regex</text>
+<rect x="110" y="516" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="527" text-anchor="end" class="value">558.2 MiB</text>
+<rect x="110" y="534" width="373.1" height="14" rx="3" class="ours"/>
+<text x="720" y="545" text-anchor="end" class="value">400.5 MiB</text>
+<text x="0" y="584" class="label">deep</text>
+<rect x="110" y="564" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="575" text-anchor="end" class="value">74.7 MiB</text>
+<rect x="110" y="582" width="4.3" height="14" rx="3" class="ours"/>
+<text x="720" y="593" text-anchor="end" class="value">0.6 MiB</text>
+<text x="0" y="632" class="label">unclosed</text>
+<rect x="110" y="612" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="623" text-anchor="end" class="value">74.7 MiB</text>
+<rect x="110" y="630" width="4.1" height="14" rx="3" class="ours"/>
+<text x="720" y="641" text-anchor="end" class="value">0.6 MiB</text>
+<text x="0" y="680" class="label">recovery</text>
+<rect x="110" y="660" width="520.0" height="14" rx="3" class="theirs"/>
+<text x="720" y="671" text-anchor="end" class="value">74.7 MiB</text>
+<rect x="110" y="678" width="3.6" height="14" rx="3" class="ours"/>
+<text x="720" y="689" text-anchor="end" class="value">0.5 MiB</text>
+</svg>

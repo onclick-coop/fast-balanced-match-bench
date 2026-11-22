@@ -1,0 +1,176 @@
+{
+  "node": "v26.13.1",
+  "platform": "darwin",
+  "arch": "arm64",
+  "runs": 25,
+  "rows": [
+    {
+      "workload": "small",
+      "implementation": "upstream",
+      "time": {
+        "min": 202.32375000000002,
+        "median": 211.5955,
+        "max": 227.63533399999997
+      },
+      "memory": {
+        "min": 762575120,
+        "median": 763758952,
+        "max": 765600936
+      }
+    },
+    {
+      "workload": "small",
+      "implementation": "ours",
+      "time": {
+        "min": 147.59675,
+        "median": 148.937709,
+        "max": 166.281333
+      },
+      "memory": {
+        "min": 430944968,
+        "median": 433678472,
+        "max": 435615592
+      }
+    },
+    {
+      "workload": "realworld",
+      "implementation": "upstream",
+      "time": {
+        "min": 146.70125,
+        "median": 148.22775,
+        "max": 165.607833
+      },
+      "memory": {
+        "min": 601362968,
+        "median": 601885144,
+        "max": 602519840
+      }
+    },
+    {
+      "workload": "realworld",
+      "implementation": "ours",
+      "time": {
+        "min": 129.69774999999998,
+        "median": 130.759375,
+        "max": 147.46129100000002
+      },
+      "memory": {
+        "min": 324913248,
+        "median": 325476688,
+        "max": 326229608
+      }
+    },
+    {
+      "workload": "regex",
+      "implementation": "upstream",
+      "time": {
+        "min": 162.253083,
+        "median": 163.905208,
+        "max": 174.211208
+      },
+      "memory": {
+        "min": 585005368,
+        "median": 585325328,
+        "max": 585826144
+      }
+    },
+    {
+      "workload": "regex",
+      "implementation": "ours",
+      "time": {
+        "min": 164.654833,
+        "median": 165.392459,
+        "max": 178.614666
+      },
+      "memory": {
+        "min": 419420480,
+        "median": 419968648,
+        "max": 420390264
+      }
+    },
+    {
+      "workload": "deep",
+      "implementation": "upstream",
+      "time": {
+        "min": 64.26524999999998,
+        "median": 64.53337499999998,
+        "max": 68.63800000000003
+      },
+      "memory": {
+        "min": 78137920,
+        "median": 78340920,
+        "max": 78479448
+      }
+    },
+    {
+      "workload": "deep",
+      "implementation": "ours",
+      "time": {
+        "min": 9.726541999999995,
+        "median": 9.756333999999995,
+        "max": 10.535582999999974
+      },
+      "memory": {
+        "min": 612072,
+        "median": 650088,
+        "max": 687072
+      }
+    },
+    {
+      "workload": "unclosed",
+      "implementation": "upstream",
+      "time": {
+        "min": 34.131417,
+        "median": 34.26595800000001,
+        "max": 36.07520800000003
+      },
+      "memory": {
+        "min": 78155408,
+        "median": 78370784,
+        "max": 78498760
+      }
+    },
+    {
+      "workload": "unclosed",
+      "implementation": "ours",
+      "time": {
+        "min": 7.892542000000006,
+        "median": 7.923083000000005,
+        "max": 8.47775
+      },
+      "memory": {
+        "min": 466584,
+        "median": 611616,
+        "max": 744288
+      }
+    },
+    {
+      "workload": "recovery",
+      "implementation": "upstream",
+      "time": {
+        "min": 60.886041999999975,
+        "median": 61.206916999999976,
+        "max": 67.888125
+      },
+      "memory": {
+        "min": 78224136,
+        "median": 78348656,
+        "max": 78468360
+      }
+    },
+    {
+      "workload": "recovery",
+      "implementation": "ours",
+      "time": {
+        "min": 15.014541999999977,
+        "median": 15.071459000000004,
+        "max": 16.344291
+      },
+      "memory": {
+        "min": 475008,
+        "median": 547864,
+        "max": 862408
+      }
+    }
+  ]
+}
